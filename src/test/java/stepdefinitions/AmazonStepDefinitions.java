@@ -72,6 +72,7 @@ AmazonPages amazonPages = new AmazonPages();
 
     @Given("kullanici {string} sayfasina gider")
     public void kullaniciSayfasinaGider(String istenenUrl) {
+        Driver.getDriver().get(istenenUrl);
 
     }
 }

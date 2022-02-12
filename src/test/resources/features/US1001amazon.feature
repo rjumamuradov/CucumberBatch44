@@ -12,4 +12,3 @@ Feature: US1001_amazon_search
     Given kullanici amazon sayfasina gider
     And flower icin arama yapar
     Then sonuclarin flower icerdigini test eder
-  US1004_ParametreyleIstenenSayfayaGitme
