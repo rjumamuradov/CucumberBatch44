@@ -10,10 +10,21 @@ public class HMCPage {
 
         PageFactory.initElements(Driver.getDriver(),this);
     }
-
     @FindBy(xpath = "//a[@href='/Account/Logon']")
     public WebElement mainPageLoginLinki;
 
     @FindBy(id="UserName")
     public WebElement usernameTextBox;
+
+    @FindBy(id="Password")
+    public WebElement passwordTextBox;
+
+    @FindBy(id="btnSubmit")
+    public WebElement loginButonu;
+
+    @FindBy(xpath="//span[text()='ListOfUsers']")
+    public WebElement basariliGirisYaziElementi;
+
+    @FindBy(xpath = "//div[@class='validation-summary-errors']")
+    public WebElement girisYapilamadiYaziElementi;
 }
