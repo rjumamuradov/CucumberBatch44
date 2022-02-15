@@ -1,3 +1,5 @@
+
+@toplu @paralel1
 Feature: US1001_amazon_search
 
   Scenario: Tc01 Amazon Search
@@ -12,3 +14,4 @@ Feature: US1001_amazon_search
     Given kullanici amazon sayfasina gider
     And flower icin arama yapar
     Then sonuclarin flower icerdigini test eder
+    And sayfayi kapatir

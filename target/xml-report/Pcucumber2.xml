@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="83.828">
+    <testcase classname="US1001_amazon_search" name="Tc01 Amazon Search" time="28.788">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And iPhone icin arama yapar.................................................passed
+Then sonuclarin iPhone icerdigini test eder.................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1001_amazon_search" name="TC03_Amazon tea pot  Search Testi" time="21.636">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And tea pot icin arama yapar................................................passed
+Then sonuclarin tea pot icerdigini test eder................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1001_amazon_search" name="TC04_Amazon flower  Search Testi" time="15.693">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And flower icin arama yapar.................................................passed
+Then sonuclarin flower icerdigini test eder.................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1003 parametre ile stepdefinition olusturma" name="TC_05parametre kullanimi" time="17.079">
+        <system-out>
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And "Batman" icin arama yapar...............................................passed
+Then sonuclarin "Batman" icerdigini test eder...............................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
