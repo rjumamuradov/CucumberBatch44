@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.65">
+    <testcase classname="US1012 Kullanici istedigi basliktaki tum bilgileri listeler" name="TC17 Kullanici istedigi basliktaki bilgileri listeleyebilmeli" time="9.262">
+        <failure message="null value in entry: url=null" type="java.lang.NullPointerException">
+            <![CDATA[Given kullanici "DemoGuruUrl" sayfasina gider...............................failed
+And "Group", sutunundaki tum degerleri yazdirir.............................skipped
+
+StackTrace:
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:119)
+	at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:76)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+	at stepdefinitions.AmazonStepDefinitions.kullaniciSayfasinaGider(AmazonStepDefinitions.java:75)
+	at ✽.kullanici "DemoGuruUrl" sayfasina gider(file:///C:/Users/rozym/IdeaProjects/com.CucumberBatch44/src/test/resources/features/US1012_DemoWebTable.feature:6)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
