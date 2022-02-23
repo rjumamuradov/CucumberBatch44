@@ -14,7 +14,7 @@ public class AmazonStepDefinitions {
     AmazonPage amazonPages=new AmazonPage();
 
     @Given("kullanici amazon sayfasina gider")
-    public void kullanici_amazon_sayfasina_gider() {
+    public void   kullanici_amazon_sayfasina_gider() {
         Driver.getDriver().get(ConfigReader.getProperty("AmazonUrl"));
     }
 
