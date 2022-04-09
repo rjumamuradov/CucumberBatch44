@@ -75,4 +75,5 @@ public class AmazonStepDefinitions {
         Driver.getDriver().get(ConfigReader.getProperty(istenenUrl));
 
     }
+
 }
