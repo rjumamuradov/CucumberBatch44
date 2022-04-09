@@ -25,3 +25,4 @@ Feature: US1009 Scenario Outline ile editor database sayfasina kayit
       |firstname|lastname|position|office|extension|startDate|salary|
       |mehmet   |bulutlu |amele   |amsterdam|amele |2021-01-01|200  |
       |muro     |bero    |aro     |mero     |lero  |2022-02-22|002  |
+      |fero    |sero    |flight attend|kero     |zero  |2022-01-22|002  |
